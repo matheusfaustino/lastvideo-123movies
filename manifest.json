@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "author": "Matheus Faustino",
+  "developer": {
+    "name": "Matheus Faustino",
+    "url": "https://github.com/matheusfaustino"
+  },
+
+  "name": "Last Video 123movies",
+  "version": "1.0.2",
+  "description": "It saves your last episode (in 123movies website) of a serie and plays it for you, when you enter in the series page. I am not related with this site or something else.",
+
+  "permissions": ["activeTab", "storage"],
+
+  "content_scripts": [
+    {
+        "matches": ["*://123movies.is/*/*/watching.html"],
+        "js": ["last_video.js"]
+    }
+  ]
+}

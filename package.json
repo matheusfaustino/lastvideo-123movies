@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "web-ext": "^1.7.0"
+  }
+}
